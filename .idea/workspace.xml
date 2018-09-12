@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46ec353f-592a-41fa-bdae-2de07df10618" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Code.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/Code.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActualBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/ActualBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-124">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Boss.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Boss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Builder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Builder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/pattern.creation.builder.v1" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/pattern.creation.builder.v1">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>pattern.creation.builder.v1</OriginalElement>
+              <nodes>
+                <node x="46.08928571428572" y="172.0">pattern.creation.builder.v1.ActualBuilder</node>
+                <node x="74.9791666666667" y="0.0">pattern.creation.builder.v1.Computer</node>
+                <node x="10.5" y="86.0">pattern.creation.builder.v1.Builder</node>
+                <node x="36.000000000000014" y="258.0">pattern.creation.builder.v1.Boss</node>
+                <node x="94.10119047619048" y="344.0">pattern.creation.builder.v1.Test</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="pattern.creation.builder.v1.Builder" target="pattern.creation.builder.v1.Computer">
+                  <point x="0.0" y="-18.0" />
+                  <point x="65.0" y="66.0" />
+                  <point x="106.9791666666667" y="66.0" />
+                  <point x="-32.0" y="18.0" />
+                </edge>
+                <edge source="pattern.creation.builder.v1.Boss" target="pattern.creation.builder.v1.Computer">
+                  <point x="-30.33333333333333" y="-18.0" />
+                  <point x="51.166666666666686" y="233.0" />
+                  <point x="0.0" y="233.0" />
+                  <point x="0.0" y="56.0" />
+                  <point x="85.64583333333337" y="56.0" />
+                  <point x="-53.33333333333333" y="18.0" />
+                </edge>
+                <edge source="pattern.creation.builder.v1.ActualBuilder" target="pattern.creation.builder.v1.Computer">
+                  <point x="19.0" y="-18.0" />
+                  <point x="141.0" y="66.0" />
+                  <point x="149.64583333333337" y="66.0" />
+                  <point x="10.666666666666657" y="18.0" />
+                </edge>
+                <edge source="pattern.creation.builder.v1.Test" target="pattern.creation.builder.v1.Boss">
+                  <point x="-33.0" y="-18.0" />
+                  <point x="105.10119047619048" y="324.0" />
+                  <point x="58.750000000000014" y="324.0" />
+                  <point x="-22.75" y="18.0" />
+                </edge>
+                <edge source="pattern.creation.builder.v1.Test" target="pattern.creation.builder.v1.ActualBuilder">
+                  <point x="11.0" y="-18.0" />
+                  <point x="149.10119047619048" y="324.0" />
+                  <point x="154.72619047619048" y="324.0" />
+                  <point x="154.72619047619048" y="233.0" />
+                  <point x="172.75595238095238" y="233.0" />
+                  <point x="50.66666666666666" y="18.0" />
+                </edge>
+                <edge source="pattern.creation.builder.v1.ActualBuilder" target="pattern.creation.builder.v1.Builder">
+                  <point x="-57.0" y="-18.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="pattern.creation.builder.v1.Boss" target="pattern.creation.builder.v1.ActualBuilder">
+                  <point x="30.33333333333333" y="-18.0" />
+                  <point x="111.83333333333334" y="233.0" />
+                  <point x="122.08928571428572" y="233.0" />
+                  <point x="0.0" y="18.0" />
+                </edge>
+                <edge source="pattern.creation.builder.v1.Test" target="pattern.creation.builder.v1.Computer">
+                  <point x="33.0" y="-18.0" />
+                  <point x="171.10119047619048" y="324.0" />
+                  <point x="208.58928571428572" y="324.0" />
+                  <point x="208.58928571428572" y="66.0" />
+                  <point x="192.3125" y="66.0" />
+                  <point x="53.333333333333314" y="18.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-97.0" y="148.0" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/pattern.creation.builder.v2" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/pattern.creation.builder.v2">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>pattern.creation.builder.v2</OriginalElement>
+              <nodes>
+                <node x="0.0" y="243.0">pattern.creation.builder.v2.Test</node>
+                <node x="2.5" y="0.0">pattern.creation.builder.v2.Computer</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="pattern.creation.builder.v2.Test" target="pattern.creation.builder.v2.Computer">
+                  <point x="0.0" y="-31.0" />
+                  <point x="0.0" y="96.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="64.0" y="79.0" />
+              <SelectedNodes>
+                <node>pattern.creation.builder.v2.Computer</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v2/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-124">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2</find>
+      <find>getIn</find>
+      <find>getConnect</find>
+      <find>buildDiplayCard</find>
+      <find>void</find>
+      <find>=</find>
+      <find>builder</find>
+      <find>Builder</find>
+      <find>build</find>
+      <find>build()</find>
+      <find>readResolveMethod</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Computer</replace>
+      <replace>:</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/Test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/product/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex1/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex1/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/BMW.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/FLL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/JL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/factorymethod/ex1/product/FLL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/factorymethod/ex1/product/BMW.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/factorymethod/ex1/product/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/factorymethod/ex1/factory/JLFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/factorymethod/ex1/factory/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/factorymethod/ex1/factory/FLLFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/factorymethod/ex1/factory/BMWFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/factorymethod/ex1/factory/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/Code.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/Vedio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/JavaCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/PythonCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/JavaVedio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/PythonVedio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/JavaFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/PythonCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Computer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Builder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/ActualBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Boss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/builder/v2/ActualBuider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/builder/v2/ActualBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/builder/v2/Computer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/builder/v2/Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/T.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/LazySingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/lazySingleton/LazySingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/doubleCheck/T.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/doubleCheck/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/doubleCheck/DoubleCheckSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/staticinnersingleton/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/staticinnersingleton/T.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/staticinnersingleton/StaticInnerSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/hungrysingleton/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pattern/creation/singleton/hungrysingleton/HungrySingleton.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/it.caoxin.software/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\it.caoxin.software\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignerPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignerPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignerPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignerPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignerPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignerPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignerPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignerPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignerPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignerPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignerPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignerPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignerPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignerPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignerPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignerPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../warehouse" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pattern.creation.builder.v1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pattern.creation.singleton.hungrysingleton" />
+      <recent name="pattern.creation.factorymethod.ex1.product" />
+      <recent name="pattern.creation.simplefactory.product" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it.caoxin.workspace\idea-workspace\DesignerPattern\src\main\java\pattern\creation\singleton\staticinnersingleton" />
+      <recent name="D:\it.caoxin.workspace\idea-workspace\DesignerPattern\src\main\java\pattern\creation\singleton\doubleCheck" />
+      <recent name="D:\it.caoxin.workspace\idea-workspace\DesignerPattern\src\main\java\pattern\creation\factorymethod\ex1\product" />
+      <recent name="D:\it.caoxin.workspace\idea-workspace\DesignerPattern\src\main\java\pattern\creation\simplefactory\ex2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.creation.singleton.hungrysingleton.Test" />
+      <module name="DesignerPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.creation.singleton.hungrysingleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.creation.builder.v1.Test" />
+      <module name="DesignerPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.creation.builder.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.creation.builder.v2.Test" />
+      <module name="DesignerPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.creation.builder.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.creation.singleton.doubleCheck.Test" />
+      <module name="DesignerPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.creation.singleton.doubleCheck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.creation.singleton.staticinnersingleton.Test" />
+      <module name="DesignerPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.creation.singleton.staticinnersingleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Application.Test (4)" />
+      <item itemvalue="Application.Test (5)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Test (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\11014465\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46ec353f-592a-41fa-bdae-2de07df10618" name="Default" comment="" />
+      <created>1535441018241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535441018241</updated>
+      <workItem from="1535441022048" duration="8528000" />
+      <workItem from="1535505540832" duration="1711000" />
+      <workItem from="1535514392251" duration="1349000" />
+      <workItem from="1535537831353" duration="2195000" />
+      <workItem from="1535590242220" duration="10232000" />
+      <workItem from="1535609981453" duration="9146000" />
+      <workItem from="1535675818974" duration="30000" />
+      <workItem from="1535677795363" duration="616000" />
+      <workItem from="1535708376801" duration="1713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35520000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3291592" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4950495" visible="true" weight="0.28396946" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="BPMNPalette" order="6" />
+      <window_info id="Structure" order="6" sideWeight="0.5049505" side_tool="true" weight="0.26793894" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.11985689" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3291592" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.54382825" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3291592" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3291592" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="BPMNPalette" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.54382825" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4950495" visible="true" weight="0.26793894" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Structure" order="6" sideWeight="0.5049505" side_tool="true" weight="0.26793894" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39355993" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/lazySingleton/Test.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/doubleCheck/T.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/doubleCheck/Test.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/io/ObjectInputStream.java</url>
+          <line>1397</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/hungrysingleton/Test.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="desc.isInstantiable()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>obj instanceof HungrySingleton</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>pattern.creation.singleton.hungrysingleton.HungrySingleton</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>obj</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>objectInputStream</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v2/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7344">
+          <caret line="272" column="19" selection-start-line="272" selection-start-column="19" selection-end-line="272" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/builder/xml/XMLConfigBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12204">
+          <caret line="536" column="41" selection-start-line="536" selection-start-column="41" selection-end-line="536" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/builder/xml/XMLConfigBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="195" column="24" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/io/WinNTFileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="2024" selection-start-line="2024" selection-end-line="2024" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="406" selection-start-line="406" selection-end-line="406" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/lazySingleton/LazySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/lazySingleton/T.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/lazySingleton/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/doubleCheck/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/doubleCheck/T.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/staticinnersingleton/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/staticinnersingleton/T.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/jre/lib/rt.jar!/sun/reflect/MethodAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/jre/lib/rt.jar!/sun/reflect/Reflection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="587" column="18" selection-start-line="587" selection-start-column="18" selection-end-line="587" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/io/ObjectStreamClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="1103" selection-start-line="1103" selection-end-line="1103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="1806" selection-start-line="1806" selection-end-line="1806" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/doubleCheck/DoubleCheckSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/staticinnersingleton/StaticInnerSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/hungrysingleton/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/singleton/hungrysingleton/HungrySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pattern.creation.simplefactory.ex1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pattern.creation.simplefactory.ex1</OriginalElement>
+          <nodes>
+            <node x="94.0" y="86.0">pattern.creation.simplefactory.ex1.BMW</node>
+            <node x="0.0" y="86.0">pattern.creation.simplefactory.ex1.JL</node>
+            <node x="207.86527777777778" y="0.0">pattern.creation.simplefactory.ex1.Car</node>
+            <node x="200.68333333333334" y="258.0">pattern.creation.simplefactory.ex1.Test</node>
+            <node x="212.0" y="86.0">pattern.creation.simplefactory.ex1.FLL</node>
+            <node x="123.18333333333334" y="172.0">pattern.creation.simplefactory.ex1.SimpleFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pattern.creation.simplefactory.ex1.SimpleFactory" target="pattern.creation.simplefactory.ex1.JL">
+              <point x="-58.125" y="-18.0" />
+              <point x="142.55833333333334" y="152.0" />
+              <point x="37.0" y="152.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex1.SimpleFactory" target="pattern.creation.simplefactory.ex1.BMW">
+              <point x="-19.375" y="-18.0" />
+              <point x="181.30833333333334" y="142.0" />
+              <point x="143.0" y="142.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex1.BMW" target="pattern.creation.simplefactory.ex1.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="143.0" y="66.0" />
+              <point x="232.76527777777778" y="66.0" />
+              <point x="-16.599999999999994" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex1.Test" target="pattern.creation.simplefactory.ex1.SimpleFactory">
+              <point x="-22.0" y="-18.0" />
+              <point x="222.68333333333334" y="233.0" />
+              <point x="200.68333333333334" y="233.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex1.Test" target="pattern.creation.simplefactory.ex1.Car">
+              <point x="22.000000000000004" y="-18.0" />
+              <point x="266.68333333333334" y="233.0" />
+              <point x="324.4125" y="233.0" />
+              <point x="324.4125" y="56.0" />
+              <point x="282.5652777777778" y="56.0" />
+              <point x="33.20000000000002" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex1.SimpleFactory" target="pattern.creation.simplefactory.ex1.Car">
+              <point x="58.125" y="-18.0" />
+              <point x="258.80833333333334" y="152.0" />
+              <point x="307.5625" y="152.0" />
+              <point x="307.5625" y="66.0" />
+              <point x="265.96527777777777" y="66.0" />
+              <point x="16.59999999999999" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex1.JL" target="pattern.creation.simplefactory.ex1.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="37.0" y="56.0" />
+              <point x="216.16527777777776" y="56.0" />
+              <point x="-33.20000000000002" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex1.SimpleFactory" target="pattern.creation.simplefactory.ex1.FLL">
+              <point x="19.375" y="-18.0" />
+              <point x="220.05833333333334" y="152.0" />
+              <point x="253.0" y="152.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex1.FLL" target="pattern.creation.simplefactory.ex1.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="253.0" y="66.0" />
+              <point x="249.36527777777778" y="66.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-82.0" y="95.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pattern.creation.simplefactory.ex2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pattern.creation.simplefactory.ex2</OriginalElement>
+          <nodes>
+            <node x="245.00000000000003" y="86.0">pattern.creation.simplefactory.ex2.FLL</node>
+            <node x="347.0" y="86.0">pattern.creation.simplefactory.ex2.BMW</node>
+            <node x="0.0" y="86.0">pattern.creation.simplefactory.ex2.JL</node>
+            <node x="244.50000000000003" y="0.0">pattern.creation.simplefactory.ex2.Car</node>
+            <node x="94.00000000000003" y="86.0">pattern.creation.simplefactory.ex2.CarFactory</node>
+            <node x="242.00000000000006" y="172.0">pattern.creation.simplefactory.ex2.Test</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pattern.creation.simplefactory.ex2.Test" target="pattern.creation.simplefactory.ex2.BMW">
+              <point x="17.600000000000023" y="-18.0" />
+              <point x="303.6000000000001" y="142.0" />
+              <point x="396.0" y="142.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex2.JL" target="pattern.creation.simplefactory.ex2.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="37.0" y="56.0" />
+              <point x="252.80000000000004" y="56.0" />
+              <point x="-33.19999999999999" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex2.Test" target="pattern.creation.simplefactory.ex2.FLL">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex2.Test" target="pattern.creation.simplefactory.ex2.JL">
+              <point x="-35.19999999999999" y="-18.0" />
+              <point x="250.80000000000007" y="152.0" />
+              <point x="37.0" y="152.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex2.CarFactory" target="pattern.creation.simplefactory.ex2.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="159.50000000000003" y="66.0" />
+              <point x="269.40000000000003" y="66.0" />
+              <point x="-16.599999999999994" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex2.Test" target="pattern.creation.simplefactory.ex2.CarFactory">
+              <point x="-17.599999999999994" y="-18.0" />
+              <point x="268.40000000000003" y="142.0" />
+              <point x="159.50000000000003" y="142.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex2.BMW" target="pattern.creation.simplefactory.ex2.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="396.0" y="66.0" />
+              <point x="302.6" y="66.0" />
+              <point x="16.600000000000023" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex2.Test" target="pattern.creation.simplefactory.ex2.Car">
+              <point x="35.19999999999999" y="-18.0" />
+              <point x="321.20000000000005" y="152.0" />
+              <point x="455.5" y="152.0" />
+              <point x="455.5" y="56.0" />
+              <point x="319.20000000000005" y="56.0" />
+              <point x="33.19999999999999" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.simplefactory.ex2.FLL" target="pattern.creation.simplefactory.ex2.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-82.0" y="95.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/BMW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex2/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pattern.creation.factorymethod.ex1.factory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pattern.creation.factorymethod.ex1.factory</OriginalElement>
+          <nodes>
+            <node x="30.083333333333314" y="182.0">pattern.creation.factorymethod.ex1.factory.BMWFactory</node>
+            <node x="275.66666666666663" y="96.0">pattern.creation.factorymethod.ex1.factory.CarFactory</node>
+            <node x="196.08333333333331" y="182.0">pattern.creation.factorymethod.ex1.factory.FLLFactory</node>
+            <node x="426.66666666666663" y="96.0">pattern.creation.factorymethod.ex1.factory.JL</node>
+            <node x="0.0" y="96.0">pattern.creation.factorymethod.ex1.factory.BMW</node>
+            <node x="223.66666666666663" y="0.0">pattern.creation.factorymethod.ex1.factory.Car</node>
+            <node x="406.0833333333333" y="182.0">pattern.creation.factorymethod.ex1.factory.JLFactory</node>
+            <node x="282.33974358974353" y="278.0">pattern.creation.factorymethod.ex1.factory.Test</node>
+            <node x="155.89858058608053" y="96.0">pattern.creation.factorymethod.ex1.factory.FLL</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pattern.creation.factorymethod.ex1.factory.FLLFactory" target="pattern.creation.factorymethod.ex1.factory.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="261.0833333333333" y="152.0" />
+              <point x="265.16666666666663" y="152.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.JLFactory" target="pattern.creation.factorymethod.ex1.factory.JL">
+              <point x="0.0" y="-18.0" />
+              <point x="467.0833333333333" y="162.0" />
+              <point x="463.66666666666663" y="162.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.JL" target="pattern.creation.factorymethod.ex1.factory.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="463.66666666666663" y="66.0" />
+              <point x="288.8809523809523" y="66.0" />
+              <point x="23.714285714285694" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.BMWFactory" target="pattern.creation.factorymethod.ex1.factory.CarFactory">
+              <point x="48.666666666666686" y="-18.0" />
+              <point x="151.75" y="162.0" />
+              <point x="292.04166666666663" y="162.0" />
+              <point x="-49.125" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.CarFactory" target="pattern.creation.factorymethod.ex1.factory.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="341.16666666666663" y="76.0" />
+              <point x="277.0238095238095" y="76.0" />
+              <point x="11.857142857142861" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.BMWFactory" target="pattern.creation.factorymethod.ex1.factory.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="103.08333333333331" y="162.0" />
+              <point x="108.5" y="162.0" />
+              <point x="108.5" y="66.0" />
+              <point x="241.4523809523809" y="66.0" />
+              <point x="-23.714285714285722" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.FLL" target="pattern.creation.factorymethod.ex1.factory.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="196.89858058608053" y="76.0" />
+              <point x="253.30952380952377" y="76.0" />
+              <point x="-11.857142857142861" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.FLLFactory" target="pattern.creation.factorymethod.ex1.factory.FLL">
+              <point x="-43.33333333333337" y="-18.0" />
+              <point x="217.74999999999994" y="152.0" />
+              <point x="196.89858058608053" y="152.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.JLFactory" target="pattern.creation.factorymethod.ex1.factory.Car">
+              <point x="40.66666666666666" y="-18.0" />
+              <point x="507.75" y="162.0" />
+              <point x="511.16666666666663" y="162.0" />
+              <point x="511.16666666666663" y="56.0" />
+              <point x="300.7380952380952" y="56.0" />
+              <point x="35.571428571428584" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.Test" target="pattern.creation.factorymethod.ex1.factory.BMWFactory">
+              <point x="-36.66666666666663" y="-18.0" />
+              <point x="289.6730769230769" y="258.0" />
+              <point x="103.08333333333331" y="258.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.BMWFactory" target="pattern.creation.factorymethod.ex1.factory.BMW">
+              <point x="-48.66666666666666" y="-18.0" />
+              <point x="54.41666666666666" y="162.0" />
+              <point x="49.0" y="162.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.BMW" target="pattern.creation.factorymethod.ex1.factory.Car">
+              <point x="0.0" y="-18.0" />
+              <point x="49.0" y="56.0" />
+              <point x="229.59523809523805" y="56.0" />
+              <point x="-35.571428571428584" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.Test" target="pattern.creation.factorymethod.ex1.factory.JLFactory">
+              <point x="22.0" y="-18.0" />
+              <point x="348.33974358974353" y="248.0" />
+              <point x="436.5833333333333" y="248.0" />
+              <point x="-30.5" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.FLLFactory" target="pattern.creation.factorymethod.ex1.factory.CarFactory">
+              <point x="43.333333333333314" y="-18.0" />
+              <point x="304.41666666666663" y="162.0" />
+              <point x="324.79166666666663" y="162.0" />
+              <point x="-16.375" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.Test" target="pattern.creation.factorymethod.ex1.factory.FLLFactory">
+              <point x="-7.333333333333314" y="-18.0" />
+              <point x="319.0064102564103" y="238.0" />
+              <point x="293.5833333333333" y="238.0" />
+              <point x="32.5" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.Test" target="pattern.creation.factorymethod.ex1.factory.CarFactory">
+              <point x="7.333333333333314" y="-18.0" />
+              <point x="333.6730769230769" y="238.0" />
+              <point x="357.54166666666663" y="238.0" />
+              <point x="16.375" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.factorymethod.ex1.factory.JLFactory" target="pattern.creation.factorymethod.ex1.factory.CarFactory">
+              <point x="-40.66666666666666" y="-18.0" />
+              <point x="426.41666666666663" y="162.0" />
+              <point x="390.29166666666663" y="162.0" />
+              <point x="49.125" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-10.0" y="138.5" />
+          <SelectedNodes>
+            <node>pattern.creation.factorymethod.ex1.factory.JLFactory</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/factorymethod/ex1/factory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="10" selection-start-line="10" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/simplefactory/ex1/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pattern.creation.abstractfactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pattern.creation.abstractfactory</OriginalElement>
+          <nodes>
+            <node x="547.5050000000001" y="0.0">pattern.creation.abstractfactory.Vedio</node>
+            <node x="407.5" y="222.0">pattern.creation.abstractfactory.JavaFactory</node>
+            <node x="344.5" y="308.0">pattern.creation.abstractfactory.Test</node>
+            <node x="0.0" y="116.0">pattern.creation.abstractfactory.PythonCode</node>
+            <node x="656.0" y="116.0">pattern.creation.abstractfactory.JavaVedio</node>
+            <node x="311.0" y="116.0">pattern.creation.abstractfactory.CourseFactory</node>
+            <node x="223.0" y="222.0">pattern.creation.abstractfactory.PythonCourse</node>
+            <node x="147.75500000000005" y="0.0">pattern.creation.abstractfactory.Code</node>
+            <node x="165.0" y="116.0">pattern.creation.abstractfactory.JavaCode</node>
+            <node x="487.0" y="116.0">pattern.creation.abstractfactory.PythonVedio</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pattern.creation.abstractfactory.JavaFactory" target="pattern.creation.abstractfactory.Code">
+              <point x="0.0" y="-18.0" />
+              <point x="476.5" y="56.0" />
+              <point x="236.89785714285716" y="56.0" />
+              <point x="41.14285714285711" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.PythonCourse" target="pattern.creation.abstractfactory.Code">
+              <point x="-31.0" y="-18.0" />
+              <point x="269.5" y="192.0" />
+              <point x="154.5" y="192.0" />
+              <point x="154.5" y="96.0" />
+              <point x="182.0407142857144" y="96.0" />
+              <point x="-13.714285714285666" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.JavaFactory" target="pattern.creation.abstractfactory.JavaCode">
+              <point x="-55.19999999999999" y="-18.0" />
+              <point x="421.3" y="172.0" />
+              <point x="227.5" y="172.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.JavaCode" target="pattern.creation.abstractfactory.Code">
+              <point x="-31.25" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.PythonCourse" target="pattern.creation.abstractfactory.Vedio">
+              <point x="0.0" y="-18.0" />
+              <point x="300.5" y="76.0" />
+              <point x="554.6478571428572" y="76.0" />
+              <point x="-42.85714285714286" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.PythonCourse" target="pattern.creation.abstractfactory.CourseFactory">
+              <point x="31.0" y="-18.0" />
+              <point x="331.5" y="202.0" />
+              <point x="336.83333333333337" y="202.0" />
+              <point x="-51.66666666666666" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.PythonCourse" target="pattern.creation.abstractfactory.PythonCode">
+              <point x="-62.0" y="-18.0" />
+              <point x="238.5" y="202.0" />
+              <point x="72.0" y="202.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.JavaVedio" target="pattern.creation.abstractfactory.Vedio">
+              <point x="32.25" y="-18.0" />
+              <point x="752.75" y="76.0" />
+              <point x="640.362142857143" y="76.0" />
+              <point x="42.85714285714286" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.CourseFactory" target="pattern.creation.abstractfactory.Code">
+              <point x="-38.75" y="-18.0" />
+              <point x="349.75" y="66.0" />
+              <point x="223.1835714285715" y="66.0" />
+              <point x="27.428571428571445" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.PythonVedio" target="pattern.creation.abstractfactory.Vedio">
+              <point x="-37.0" y="-18.0" />
+              <point x="524.0" y="96.0" />
+              <point x="583.2192857142858" y="96.0" />
+              <point x="-14.285714285714278" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.JavaFactory" target="pattern.creation.abstractfactory.JavaVedio">
+              <point x="55.19999999999999" y="-18.0" />
+              <point x="531.7" y="202.0" />
+              <point x="720.5" y="202.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.Test" target="pattern.creation.abstractfactory.CourseFactory">
+              <point x="0.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.CourseFactory" target="pattern.creation.abstractfactory.Vedio">
+              <point x="38.75" y="-18.0" />
+              <point x="427.25" y="86.0" />
+              <point x="568.9335714285714" y="86.0" />
+              <point x="-28.571428571428584" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.Test" target="pattern.creation.abstractfactory.JavaFactory">
+              <point x="29.333333333333314" y="-18.0" />
+              <point x="417.8333333333333" y="283.0" />
+              <point x="476.5" y="283.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.JavaFactory" target="pattern.creation.abstractfactory.CourseFactory">
+              <point x="-27.600000000000023" y="-18.0" />
+              <point x="448.9" y="172.0" />
+              <point x="440.16666666666663" y="172.0" />
+              <point x="51.66666666666663" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.PythonCode" target="pattern.creation.abstractfactory.Code">
+              <point x="36.0" y="-18.0" />
+              <point x="108.0" y="86.0" />
+              <point x="168.3264285714286" y="86.0" />
+              <point x="-27.428571428571445" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.JavaFactory" target="pattern.creation.abstractfactory.Vedio">
+              <point x="27.600000000000023" y="-18.0" />
+              <point x="504.1" y="192.0" />
+              <point x="645.5" y="192.0" />
+              <point x="645.5" y="96.0" />
+              <point x="611.7907142857143" y="96.0" />
+              <point x="14.285714285714278" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.PythonCourse" target="pattern.creation.abstractfactory.PythonVedio">
+              <point x="62.0" y="-18.0" />
+              <point x="362.5" y="182.0" />
+              <point x="561.0" y="182.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.abstractfactory.Test" target="pattern.creation.abstractfactory.PythonCourse">
+              <point x="-29.333333333333314" y="-18.0" />
+              <point x="359.1666666666667" y="283.0" />
+              <point x="300.5" y="283.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="135.0" y="220.0" />
+          <SelectedNodes>
+            <node>pattern.creation.abstractfactory.PythonVedio</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/abstractfactory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/ActualBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v1/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pattern.creation.builder.v1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pattern.creation.builder.v1</OriginalElement>
+          <nodes>
+            <node x="46.08928571428572" y="172.0">pattern.creation.builder.v1.ActualBuilder</node>
+            <node x="74.9791666666667" y="0.0">pattern.creation.builder.v1.Computer</node>
+            <node x="10.5" y="86.0">pattern.creation.builder.v1.Builder</node>
+            <node x="36.000000000000014" y="258.0">pattern.creation.builder.v1.Boss</node>
+            <node x="94.10119047619048" y="344.0">pattern.creation.builder.v1.Test</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pattern.creation.builder.v1.Builder" target="pattern.creation.builder.v1.Computer">
+              <point x="0.0" y="-18.0" />
+              <point x="65.0" y="66.0" />
+              <point x="106.9791666666667" y="66.0" />
+              <point x="-32.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.builder.v1.Boss" target="pattern.creation.builder.v1.Computer">
+              <point x="-30.33333333333333" y="-18.0" />
+              <point x="51.166666666666686" y="233.0" />
+              <point x="0.0" y="233.0" />
+              <point x="0.0" y="56.0" />
+              <point x="85.64583333333337" y="56.0" />
+              <point x="-53.33333333333333" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.builder.v1.ActualBuilder" target="pattern.creation.builder.v1.Computer">
+              <point x="19.0" y="-18.0" />
+              <point x="141.0" y="66.0" />
+              <point x="149.64583333333337" y="66.0" />
+              <point x="10.666666666666657" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.builder.v1.Test" target="pattern.creation.builder.v1.Boss">
+              <point x="-33.0" y="-18.0" />
+              <point x="105.10119047619048" y="324.0" />
+              <point x="58.750000000000014" y="324.0" />
+              <point x="-22.75" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.builder.v1.Test" target="pattern.creation.builder.v1.ActualBuilder">
+              <point x="11.0" y="-18.0" />
+              <point x="149.10119047619048" y="324.0" />
+              <point x="154.72619047619048" y="324.0" />
+              <point x="154.72619047619048" y="233.0" />
+              <point x="172.75595238095238" y="233.0" />
+              <point x="50.66666666666666" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.builder.v1.ActualBuilder" target="pattern.creation.builder.v1.Builder">
+              <point x="-57.0" y="-18.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.builder.v1.Boss" target="pattern.creation.builder.v1.ActualBuilder">
+              <point x="30.33333333333333" y="-18.0" />
+              <point x="111.83333333333334" y="233.0" />
+              <point x="122.08928571428572" y="233.0" />
+              <point x="0.0" y="18.0" />
+            </edge>
+            <edge source="pattern.creation.builder.v1.Test" target="pattern.creation.builder.v1.Computer">
+              <point x="33.0" y="-18.0" />
+              <point x="171.10119047619048" y="324.0" />
+              <point x="208.58928571428572" y="324.0" />
+              <point x="208.58928571428572" y="66.0" />
+              <point x="192.3125" y="66.0" />
+              <point x="53.333333333333314" y="18.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-97.0" y="148.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/creation/builder/v2/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pattern.creation.builder.v2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pattern.creation.builder.v2</OriginalElement>
+          <nodes>
+            <node x="0.0" y="243.0">pattern.creation.builder.v2.Test</node>
+            <node x="2.5" y="0.0">pattern.creation.builder.v2.Computer</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pattern.creation.builder.v2.Test" target="pattern.creation.builder.v2.Computer">
+              <point x="0.0" y="-31.0" />
+              <point x="0.0" y="96.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="64.0" y="79.0" />
+          <SelectedNodes>
+            <node>pattern.creation.builder.v2.Computer</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
