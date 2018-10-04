@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.openclose;
+package pattern.designpriciple.openclose;
 
 public interface ICourse {
     Integer getId();

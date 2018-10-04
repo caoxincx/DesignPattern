@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.singleresponsibility.singlemethod;
+package pattern.designpriciple.singleresponsibility.singlemethod;
 
 public class Test {
     //将修改名字和修改地址的函数分开

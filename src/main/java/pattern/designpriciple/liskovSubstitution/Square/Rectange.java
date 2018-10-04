@@ -1,4 +1,5 @@
-package it.caoxin.designpriciple.liskovSubstitution.Square;
+package pattern.designpriciple.liskovSubstitution.Square;
+
 
 public class Rectange implements Quadrangle {
     private long width;

@@ -1,6 +1,6 @@
-package it.caoxin.designpriciple.liskovSubstitution.Square;
+package pattern.designpriciple.liskovSubstitution.Square;
 
-public class Square implements Quadrangle{
+public class Square implements Quadrangle {
     private long sideLength;
 
     public long getSideLength() {

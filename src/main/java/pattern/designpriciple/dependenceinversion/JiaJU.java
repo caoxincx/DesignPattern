@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.dependenceinversion;
+package pattern.designpriciple.dependenceinversion;
 
 public interface JiaJU {
     void buyJiaJu();

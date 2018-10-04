@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.singleresponsibility.singleclass;
+package pattern.designpriciple.singleresponsibility.singleclass;
 
 public class WalkBrid {
     public void walk(String name){

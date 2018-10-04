@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.singleresponsibility.singleclass;
+package pattern.designpriciple.singleresponsibility.singleclass;
 
 public class FlyBrid {
     public void Fly(String name){

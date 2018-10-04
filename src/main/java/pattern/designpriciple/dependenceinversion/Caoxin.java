@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.dependenceinversion;
+package pattern.designpriciple.dependenceinversion;
 
 /*
 什么是依赖倒置原则呢？

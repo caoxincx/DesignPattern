@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.dimeter;
+package pattern.designpriciple.dimeter;
 
 import java.util.ArrayList;
 import java.util.List;

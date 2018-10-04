@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.openclose;
+package pattern.designpriciple.openclose;
 
 /*
     1.开闭原则：对增加代码功能开放，对修改代码关闭

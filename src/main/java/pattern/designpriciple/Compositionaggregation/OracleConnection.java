@@ -1,4 +1,6 @@
-package it.caoxin.designpriciple.Compositionaggregation;
+package pattern.designpriciple.Compositionaggregation;
+
+import pattern.designpriciple.Compositionaggregation.DBConnection;
 
 public class OracleConnection extends DBConnection {
     @Override

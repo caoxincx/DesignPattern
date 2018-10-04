@@ -1,4 +1,5 @@
-package it.caoxin.designpriciple.liskovSubstitution.Square.methodinput;
+package pattern.designpriciple.liskovSubstitution.Square.methodinput;
+
 
 import java.util.HashMap;
 

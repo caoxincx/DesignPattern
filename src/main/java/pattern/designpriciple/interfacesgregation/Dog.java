@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.interfacesgregation;
+package pattern.designpriciple.interfacesgregation;
 
 public class Dog implements IAnimalsAction {
     @Override

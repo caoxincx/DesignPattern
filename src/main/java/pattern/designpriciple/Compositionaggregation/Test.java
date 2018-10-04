@@ -1,5 +1,4 @@
-package it.caoxin.designpriciple.Compositionaggregation;
-
+package pattern.designpriciple.Compositionaggregation;
 public class Test {
     public static void main(String[] args) {
         ProductDao productDao = new ProductDao();

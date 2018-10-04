@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.openclose;
+package pattern.designpriciple.openclose;
 
 public class JavaCourse implements ICourse {
     private Integer id;

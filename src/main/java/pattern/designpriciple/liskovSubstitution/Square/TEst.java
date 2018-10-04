@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.liskovSubstitution.Square;
+package pattern.designpriciple.liskovSubstitution.Square;
 
 /*
 里氏替换原则：

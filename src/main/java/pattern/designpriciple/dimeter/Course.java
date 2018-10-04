@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.dimeter;
+package pattern.designpriciple.dimeter;
 
 public class Course {
 }

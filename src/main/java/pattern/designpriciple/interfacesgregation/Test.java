@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.interfacesgregation;
+package pattern.designpriciple.interfacesgregation;
 
 /*
 接口隔离原则，强调的是：不同类型接口的隔离eat(),fly(),swim()

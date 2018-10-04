@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.singleresponsibility.singleinterface;
+package pattern.designpriciple.singleresponsibility.singleinterface;
 
 public interface Course {
     /*

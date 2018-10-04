@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.interfacesgregation;
+package pattern.designpriciple.interfacesgregation;
 
 public interface IAnimalsAction {
     void eat();

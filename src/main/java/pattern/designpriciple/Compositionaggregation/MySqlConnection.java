@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.Compositionaggregation;
+package pattern.designpriciple.Compositionaggregation;
 
 public class MySqlConnection extends DBConnection{
 

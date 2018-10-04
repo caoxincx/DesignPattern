@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.singleresponsibility.singleclass;
+package pattern.designpriciple.singleresponsibility.singleclass;
 
 public class Test {
     public static void main(String[] args) {

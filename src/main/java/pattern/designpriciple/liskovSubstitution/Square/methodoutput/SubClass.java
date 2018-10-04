@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.liskovSubstitution.Square.methodoutput;
+package pattern.designpriciple.liskovSubstitution.Square.methodoutput;
 
 import java.util.Map;
 

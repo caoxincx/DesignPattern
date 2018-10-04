@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.liskovSubstitution.Square;
+package pattern.designpriciple.liskovSubstitution.Square;
 
 public interface Quadrangle {
     Long getWidth();

@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.singleresponsibility.singleclass;
+package pattern.designpriciple.singleresponsibility.singleclass;
 
 public class Bird {
     public static void birdMainMove(String bridName){

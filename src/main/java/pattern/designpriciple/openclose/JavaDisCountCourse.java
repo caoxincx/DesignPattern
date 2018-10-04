@@ -1,4 +1,4 @@
-package it.caoxin.designpriciple.openclose;
+package pattern.designpriciple.openclose;
 
 public class JavaDisCountCourse extends JavaCourse {
     public JavaDisCountCourse(Integer id, String name, Double price) {
